@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    background-color: azure;
+}
+form{
+    background-color: azure;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    display: flexbox;
+    min-width: 30%;
+    min-height: 30%;
+    width: auto;
+    height: auto;
+
+}
+label{
+    width: 160px;
+}
+button{
+    background-color: rgb(194, 62, 62);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+input{
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+fieldset{
+    background-color: lightgray;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.container {
+    color: maroon;
+    width: 300px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra para parecer um card */
+    text-align: center; /* Centraliza o conteúdo dentro do card */
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    color: rgb(0, 0, 0);
+    background-color: azure;
+}
+.claro{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.escuro{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+

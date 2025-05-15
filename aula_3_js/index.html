@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso primeiro JS</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <noscript>este site só funciona com javascript ativado</noscript>
+</head>
+<body>
+    <section id="formulario">
+        <form>
+            <button onclick="alert('Opa! Tudo bem?')">Me Clique!</button>
+            <fieldset class="container">
+                <h1>Calcule seu IMC</h1>
+                <label>Informe seu peso:</label>
+                <input type="text" name="peso" id="ps"><br><br>               
+                <label>Informe sua Altura:</label>
+                <input type="text" name="altura" id="al"><br>
+                <span>em centimetros</span><br>
+                <button onclick="calcIMC()">Calcular</button>
+            
+        </fieldset>
+        <button onclick="alternarTemas_claro()">Tema Claro</button>
+        <button onclick="alternarTemas_escuro()">Tema Escuro</button>
+        </form>
+
+    </section>
+</body>
+</html>
